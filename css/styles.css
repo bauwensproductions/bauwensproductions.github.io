@@ -19,6 +19,7 @@
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  margin-bottom: -1px;
 }
 
 .custom-shape-divider-bottom .shape-fill {
@@ -38,6 +39,12 @@ header {
 
 .dark-link {
   color:rgba(0, 0, 0, 0)
+}
+
+.pop-content {
+  background-color: #d9d9db38;
+  padding: 30px !important;
+  border-radius: 15px;
 }
 
 :root {
