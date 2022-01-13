@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  
- .custom-shape-divider-bottom-1642077879 {
+ .custom-shape-divider-bottom {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -21,15 +21,15 @@
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1642077879 svg {
-  position: relative;
-  display: block;
-  width: calc(152% + 1.3px);
-  height: 50px;
+.custom-shape-divider-bottom .shape-fill {
+  fill: #FFFFFF;
 }
 
-.custom-shape-divider-bottom-1642077879 .shape-fill {
-  fill: #FFFFFF;
+.custom-shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 5vw;
 }
 
 header {
